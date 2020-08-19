@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-void print_et_table(int ismidi, int write_interval) {
-    int notes, i;
+void print_et_table(int ismidi, int write_interval, double startval, int notes) {
+    int i;
     int err = 0;
-    double startval, basefreq, ratio;
+    double basefreq, ratio;
     double intervals[25];
 
     if (ismidi) {

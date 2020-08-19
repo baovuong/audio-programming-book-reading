@@ -1,0 +1,1 @@
+void print_et_table(int ismidi, int write_interval, double startval, int notes);
